@@ -1,0 +1,17 @@
+{
+	"name": "finger-printer",
+	"version": "1.0.0",
+	"description": "fingerprints users when they enter the site and stores the print information",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "Gabe-Codes",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.8",
+		"express": "^4.18.1",
+		"mongoose": "^6.4.1"
+	}
+}
